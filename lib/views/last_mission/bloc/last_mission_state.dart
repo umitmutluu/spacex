@@ -5,9 +5,9 @@ abstract class LastMissionState {}
 class LastMissionInitialState extends LastMissionState {}
 
 class LastMissionSuccessState extends LastMissionState {
-  late LatestLaunchModel redditModel;
+  late List<LatestLaunchModel> fetchItem;
 
-  LastMissionSuccessState(this.redditModel);
+  LastMissionSuccessState(this.fetchItem);
 }
 
 class LastMissionFailureState extends LastMissionState {

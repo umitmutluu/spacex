@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spacex/core/widgets/EmptyPage.dart';
+import 'package:spacex/core/widgets/emptyPage.dart';
 import 'package:spacex/views/last_mission/view/last_mission_view.dart';
 
 class RouteGenerator {
