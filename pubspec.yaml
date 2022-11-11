@@ -1,0 +1,28 @@
+name: spacex
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  #CORE
+  cupertino_icons: ^1.0.2
+  #PARSING
+  json_serializable: ^6.5.4
+  json_annotation: ^4.7.0
+  #NETWORK
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #REFACTORING
+  flutter_lints: ^2.0.0
+  #GENERATOR
+  build_runner: ^2.3.2
+
+flutter:
+  uses-material-design: true
