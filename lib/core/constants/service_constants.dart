@@ -7,7 +7,7 @@ class ServiceConstants {
   }
 
   ServiceConstants._init();
-  String get baseUrl => "http://connect.jangle.co:80/";
+  String get baseUrl => "https://api.spacexdata.com/";
 
   Map<String, String> get headersJson => {"Content-Type": "application/json"};
 }

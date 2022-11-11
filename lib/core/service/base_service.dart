@@ -13,7 +13,6 @@ class BaseApiService {
 
   Future<dynamic> fetchData(
     String endPoint, {
-    bool isAuth = true,
     Map<String, String>? parameters,
     bool isStatusCodeReturn = false,
   }) async {
